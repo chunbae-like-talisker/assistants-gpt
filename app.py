@@ -3,6 +3,10 @@ import json
 from openai import OpenAI
 import my_functions
 import pathlib
+import os
+
+os.system("playwright install")
+os.system("playwright install-deps")
 
 st.set_page_config(
     page_title="Chunbae's AssistantsGPT",
